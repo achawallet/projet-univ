@@ -1,3 +1,12 @@
 spring:
   application:
     name: projet-univ
+
+  datasource:
+    url : jdbc:mysql://localhost:3306/universite
+    username: root
+    password:
+
+  jpa:
+   hibernate:
+    ddl-auto: update
